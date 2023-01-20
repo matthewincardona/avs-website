@@ -29,7 +29,7 @@ title: "Home"
     faucibus vitae velit egestas eleifend commodo commodo. Ornare blandit laoreet integer non.</p>
 <a href="">Learn More</a>
 
-<div id="banner">
+<div id="banner" class="">
     <p>Leo mauris blandit mi ac imperdiet posuere.</p>
     <button>GitHub</button>
 </div>
