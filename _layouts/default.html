@@ -6,9 +6,15 @@
     <title>{{ site.title }} | {{ page.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
-  {% include navigation.html %}
+  
   <body>
-    {{ content }}
+    <!-- side nav bar --> 
+    <div class="flex p-3">
+      {% include navigation.html %}
+      <div class="">
+      {{ content }}
+      </div>
+    </div>
   </body>
   {% include footer.html  %}
 </html>

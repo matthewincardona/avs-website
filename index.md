@@ -3,16 +3,15 @@ layout: default
 title: "Home"
 ---
 
-<div id="hero">
-</div>
 
-<h2 class="font">Unraveling ML models for ensuring security</h2>
+<div class="w-0">
+<h2 class="">Unraveling ML models for ensuring security</h2>
 <p>Research has demonstrated how these models are vulnerable to spoofing and adversarial examples resulting from
     small-magnitude perturbations in the input data. Therefore, understanding inputs (e.g., sensor data) is a critical
     step toward creating resilient infrastructure within which smart agents like CAVs and human actors can co-exist,
     thereby reducing risks to life and property.
 </p>
-<h2 class="text-red-500">About</h2>
+<h2 class="">About</h2>
 <p>Autonomous vehicles (AVs) are anticipated to have built-in AI systems for defending against cyberattacks. Machine
     learning (ML) models form the basis of many such AI systems. These models are notorious for acting like black
     boxes, transforming inputs into solutions with great accuracy, but no explanations support their decisions.
@@ -60,4 +59,5 @@ title: "Home"
 <h2>Contact to Contribute</h2>
 <p>Leo mauris blandit mi ac imperdiet posuere.</p>
 <p>Duis nec nullam volutpat diam. Leo mauris blandit mi ac imperdiet posuere. Est facilisi nisi, turpis viverra mi arcu. Sed volutpat dui dignissim neque, venenatis natoque in. Et sem sed mauris porttitor. Pellentesque adipiscing quis sit sagittis est augue purus arcu. In diam purus semper pulvinar felis ut euismod malesuada. Pellentesque ipsum et turpis arcu viverra. Eros, amet in viverra accumsan.</p>
+</div>
 </div>
