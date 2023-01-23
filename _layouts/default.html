@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en-US' }}">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
     <title>{{ site.title }} | {{ page.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
-  
+
   <body>
-    <!-- side nav bar --> 
-    <div class="flex w-full justify-items-center">
-      {% include navigation.html %}
-      <div class="max-w-prose">
+    <main class="p-10 space-x-4 max-w-6xl flex justify-center ml-auto mr-auto">
+      {% include navigation.html %} 
+      <div>
       {{ content }}
       </div>
-    </div>
+  </main>
   </body>
-  {% include footer.html  %}
+  {% include footer.html %}
 </html>

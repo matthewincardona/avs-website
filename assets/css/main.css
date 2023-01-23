@@ -8,13 +8,20 @@
       @apply text-2xl;
     }
     h2 {
-      @apply text-xl;
+      @apply text-2xl font-bold leading-6 mb-4;
     }
     h3 {
       @apply text-lg;
     }
     a {
-      @apply text-blue-600 underline;
+      @apply text-primary-color hover:text-slate-400 block;
+    }
+    /* * {
+      @apply border-2;
+    } */
+
+    :root {
+      --primary-color: #FF6B00;
     }
   }
 
