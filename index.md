@@ -4,7 +4,7 @@ title: "Home"
 ---
 
 
-<div class="w-0">
+<div class="p-10">
 <h2 class="">Unraveling ML models for ensuring security</h2>
 <p>Research has demonstrated how these models are vulnerable to spoofing and adversarial examples resulting from
     small-magnitude perturbations in the input data. Therefore, understanding inputs (e.g., sensor data) is a critical
