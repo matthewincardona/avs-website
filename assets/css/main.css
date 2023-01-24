@@ -17,11 +17,11 @@
       @apply text-primary-color hover:text-slate-400 inline-block;
     }
     button {
-      @apply text-white bg-primary-color rounded-full px-4 w-72 text-center font-bold;
+      @apply text-white bg-primary-color rounded-full w-64 text-center font-bold py-2;
     }
 
     * {
-      /* @apply bg-green-500/5; */
+      /* @apply bg-slate-500/10; */
     }
 
     :root {
