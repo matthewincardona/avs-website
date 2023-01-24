@@ -646,22 +646,20 @@ video {
   justify-content: space-between;
 }
 
-.gap-24 {
-  gap: 6rem;
+.gap-20 {
+  gap: 5rem;
 }
 
 .gap-16 {
   gap: 4rem;
 }
 
-.gap-4 {
-  gap: 1rem;
+.gap-24 {
+  gap: 6rem;
 }
 
-.space-x-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1rem * var(--tw-space-x-reverse));
-  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+.gap-4 {
+  gap: 1rem;
 }
 
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
@@ -674,6 +672,12 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-8 > :not([hidden]) ~ :not([hidden]) {
@@ -710,8 +714,8 @@ video {
   background-color: transparent;
 }
 
-.p-14 {
-  padding: 3.5rem;
+.p-8 {
+  padding: 2rem;
 }
 
 .p-10 {
@@ -758,6 +762,13 @@ video {
 .hover\:text-gray-400:hover {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+@media (min-width: 820px) {
+
+  .min-\[820px\]\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
 }
 
 @media (min-width: 1024px) {
