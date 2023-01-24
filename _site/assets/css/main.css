@@ -375,8 +375,11 @@ video {
   display: none;
 }
     h1 {
-  font-size: 1.5rem;
-  line-height: 2rem;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 700;
+  line-height: 2.5rem;
 }
     h2 {
   margin-bottom: 1.25rem;
@@ -534,6 +537,14 @@ video {
   margin-right: auto;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -560,10 +571,6 @@ video {
 
 .mt-3 {
   margin-top: 0.75rem;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
 }
 
 .flex {
