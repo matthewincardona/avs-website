@@ -33,9 +33,9 @@ title: "Home"
 
 <br><br>
 
-<div class="mb-8 flex px-6 py-4 bg-black text-white justify-between items-center">
+<div class="mb-12 flex px-6 py-5 bg-black text-white justify-between items-center">
     <p>Leo mauris blandit mi ac imperdiet posuere.</p>
-    <button class="mt-2 bg-transparent border-2 border-white hover:bg-white-500">GitHub</button>
+    <button class="bg-transparent border-2 border-white hover:bg-white-500">GitHub</button>
 </div>
 
 <div class="mb-2 flex items-start">
@@ -43,7 +43,7 @@ title: "Home"
     <a class="ml-auto" href="">Meet the Team ></a>
 </div>
 
-<div class="font-bold text-center flex items-start justify-start flex-wrap space-x-6 space-y-4 mb-8">
+<div class="mb-12 font-bold text-center flex items-start justify-start flex-wrap space-x-8 space-y-4">
 
     <div class="mt-4 w-36 flex flex-col">
         <picture>
@@ -84,8 +84,15 @@ title: "Home"
 </div>
 
 <h2>Contact to Contribute</h2>
-<p>Leo mauris blandit mi ac imperdiet posuere.</p>
-<p>Duis nec nullam volutpat diam. Leo mauris blandit mi ac imperdiet posuere. Est facilisi nisi, turpis viverra mi arcu.
-    Sed volutpat dui dignissim neque, venenatis natoque in. Et sem sed mauris porttitor. Pellentesque adipiscing quis
-    sit sagittis est augue purus arcu. In diam purus semper pulvinar felis ut euismod malesuada. Pellentesque ipsum et
+<div class="flex justify-center items-center flex-col text-white space-y-6 px-6 py-6" style="background: linear-gradient(180deg, #000000 0%, #552400 100%);">
+    <p>Leo mauris blandit mi ac imperdiet posuere.</p>
+    <button>Contribute</button>
+</div>
+
+<p class="mt-6">Duis nec nullam volutpat diam. Leo mauris blandit mi ac imperdiet posuere. Est facilisi nisi, turpis viverra mi
+    arcu.
+    Sed volutpat dui dignissim neque, venenatis natoque in. Et sem sed mauris porttitor. Pellentesque adipiscing
+    quis
+    sit sagittis est augue purus arcu. In diam purus semper pulvinar felis ut euismod malesuada. Pellentesque ipsum
+    et
     turpis arcu viverra. Eros, amet in viverra accumsan.</p>
