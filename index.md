@@ -84,12 +84,14 @@ title: "Home"
 </div>
 
 <h2>Contact to Contribute</h2>
-<div class="flex justify-center items-center flex-col text-white space-y-6 px-6 py-6" style="background: linear-gradient(180deg, #000000 0%, #552400 100%);">
+<div class="flex justify-center items-center flex-col text-white space-y-6 px-6 py-6"
+    style="background: linear-gradient(180deg, #000000 0%, #552400 100%);">
     <p>Leo mauris blandit mi ac imperdiet posuere.</p>
     <button>Contribute</button>
 </div>
 
-<p class="mt-6">Duis nec nullam volutpat diam. Leo mauris blandit mi ac imperdiet posuere. Est facilisi nisi, turpis viverra mi
+<p class="mt-6">Duis nec nullam volutpat diam. Leo mauris blandit mi ac imperdiet posuere. Est facilisi nisi, turpis
+    viverra mi
     arcu.
     Sed volutpat dui dignissim neque, venenatis natoque in. Et sem sed mauris porttitor. Pellentesque adipiscing
     quis
