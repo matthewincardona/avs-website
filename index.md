@@ -3,7 +3,6 @@ layout: default
 title: "Home"
 ---
 
-
 <h2>Unraveling ML models for ensuring security</h2>
 <p>Research has demonstrated how these models are vulnerable to spoofing and adversarial examples resulting from
     small-magnitude perturbations in the input data. Therefore, understanding inputs (e.g., sensor data) is a critical
@@ -24,7 +23,6 @@ title: "Home"
 
 <br><br>
 
-
 <h2>Get Started</h2>
 <p>Et enim pulvinar eget diam risus eget nulla eros non. Facilisi arcu ut commodo, tortor faucibus gravida urna
     magna. Blandit penatibus phasellus posuere quisque pellentesque adipiscing eget. Mi augue tristique nibh molestie
@@ -35,34 +33,59 @@ title: "Home"
 
 <br><br>
 
-<div id="banner" class="">
+<div class="mb-8 flex px-6 py-4 bg-black text-white justify-between items-center">
     <p>Leo mauris blandit mi ac imperdiet posuere.</p>
-    <button>GitHub</button>
+    <button class="mt-2 bg-transparent border-2 border-white hover:bg-white-500">GitHub</button>
 </div>
 
-<span>
-<h2 class="font-bold">Project Lead and Members</h2>
-<button>Meet the Team</button>
-</span>
+<div class="mb-2 flex items-start">
+    <h2 class="font-bold">Project Lead and Members</h2>
+    <a class="ml-auto" href="">Meet the Team ></a>
+</div>
 
-<div>
-    <div>
-    <img src="" alt="">
-    <p></p>
+<div class="font-bold text-center flex items-start justify-start flex-wrap space-x-6 space-y-4 mb-8">
+
+    <div class="mt-4 w-36 flex flex-col">
+        <picture>
+            <source srcset="./assets/img/nidhi-rastogi.png" type="image/webp">
+            <source srcset="" type="image/png">
+            <img src="" alt="">
+        </picture>
+        <p class="mt-3">Dr. Nidhi Rastogi</p>
     </div>
-    <div>
-    <img src="" alt="">
-    <p></p>
+
+    <div class="w-36 flex flex-col">
+        <picture>
+            <source srcset="./assets/img/praveen-chandrasekaran.png" type="image/webp">
+            <source srcset="" type="image/png">
+            <img src="" alt="">
+        </picture>
+        <p class="mt-3">Praveen Chandrasekaran</p>
     </div>
-    <div>
-    <img src="" alt="">
-    <p></p>
+
+    <div class="w-36 flex flex-col">
+        <picture>
+            <source srcset="./assets/img/ajay-ashok-shewale.png" type="image/webp">
+            <source srcset="" type="image/png">
+            <img src="" alt="">
+        </picture>
+        <p class="mt-3">Ajay Ashok Shewale</p>
     </div>
-    <div>
-    <img src="" alt="">
-    <p></p>
+
+    <div class="w-36 flex flex-col">
+        <picture>
+            <source srcset="./assets/img/dipkamal-bhusal.png" type="image/webp">
+            <source srcset="" type="image/png">
+            <img src="" alt="">
+        </picture>
+        <p class="mt-3">Dipkamal Bhusal</p>
+    </div>
+
 </div>
 
 <h2>Contact to Contribute</h2>
 <p>Leo mauris blandit mi ac imperdiet posuere.</p>
-<p>Duis nec nullam volutpat diam. Leo mauris blandit mi ac imperdiet posuere. Est facilisi nisi, turpis viverra mi arcu. Sed volutpat dui dignissim neque, venenatis natoque in. Et sem sed mauris porttitor. Pellentesque adipiscing quis sit sagittis est augue purus arcu. In diam purus semper pulvinar felis ut euismod malesuada. Pellentesque ipsum et turpis arcu viverra. Eros, amet in viverra accumsan.</p>
+<p>Duis nec nullam volutpat diam. Leo mauris blandit mi ac imperdiet posuere. Est facilisi nisi, turpis viverra mi arcu.
+    Sed volutpat dui dignissim neque, venenatis natoque in. Et sem sed mauris porttitor. Pellentesque adipiscing quis
+    sit sagittis est augue purus arcu. In diam purus semper pulvinar felis ut euismod malesuada. Pellentesque ipsum et
+    turpis arcu viverra. Eros, amet in viverra accumsan.</p>

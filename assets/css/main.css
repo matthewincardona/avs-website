@@ -14,11 +14,15 @@
       @apply text-lg;
     }
     a {
-      @apply text-primary-color hover:text-slate-400 block;
+      @apply text-primary-color hover:text-slate-400 inline-block;
     }
-    /* * {
-      @apply border-2;
-    } */
+    button {
+      @apply text-white bg-primary-color rounded-full py-2 px-4 w-48;
+    }
+
+    * {
+      /* @apply bg-green-500/5; */
+    }
 
     :root {
       --primary-color: #FF6B00;
