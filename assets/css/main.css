@@ -17,7 +17,7 @@
       @apply text-primary-color hover:text-slate-400 inline-block;
     }
     button {
-      @apply text-white bg-primary-color rounded-full py-2 px-4 w-48;
+      @apply text-white bg-primary-color rounded-full px-4 w-72 text-center font-bold;
     }
 
     * {
