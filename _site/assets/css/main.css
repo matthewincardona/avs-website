@@ -385,15 +385,15 @@ video {
   margin-bottom: 1.25rem;
   font-size: 1.5rem;
   font-weight: 700;
-  line-height: 1.5rem;
+  line-height: 1.75rem;
 }
     h3 {
   font-size: 1.25rem;
-  line-height: 1.75rem;
   font-weight: 700;
+  line-height: 1.5rem;
 }
     a {
-  display: block;
+  display: inline-block;
   color: var(--primary-color);
 }
     a:hover {
@@ -588,6 +588,10 @@ video {
   margin-top: 0.75rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -749,6 +753,12 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(3rem * var(--tw-space-x-reverse));
   margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
 }
 
 .space-x-reverse > :not([hidden]) ~ :not([hidden]) {

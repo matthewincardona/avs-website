@@ -8,13 +8,13 @@
       @apply text-5xl font-bold leading-10 mb-10 leading-[3rem];
     }
     h2 {
-      @apply text-2xl font-bold leading-6 mb-5;
+      @apply text-2xl font-bold leading-7 mb-5;
     }
     h3 {
-      @apply text-xl font-bold;
+      @apply text-xl font-bold leading-6;
     }
     a {
-      @apply text-primary-color hover:text-slate-400 block;
+      @apply text-primary-color hover:text-slate-400 inline-block;
     }
     button {
       @apply text-white bg-primary-color rounded-full w-48 text-center font-bold py-2 border-2 border-primary-color hover:text-white hover:bg-black hover:border-black;
