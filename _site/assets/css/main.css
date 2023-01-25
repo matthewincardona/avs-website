@@ -390,9 +390,10 @@ video {
     h3 {
   font-size: 1.125rem;
   line-height: 1.75rem;
+  font-weight: 700;
 }
     a {
-  display: inline-block;
+  display: block;
   color: var(--primary-color);
 }
     a:hover {
@@ -533,6 +534,14 @@ video {
 
 .left-0 {
   left: 0px;
+}
+
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
+
+.col-span-2 {
+  grid-column: span 2 / span 2;
 }
 
 .ml-auto {
@@ -819,6 +828,23 @@ video {
 .hover\:text-gray-400:hover {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+
+  .md\:grid {
+    display: grid;
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
 }
 
 @media (min-width: 820px) {
