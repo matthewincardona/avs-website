@@ -5,13 +5,13 @@
 
 @layer base {
     h1 {
-      @apply text-5xl font-bold leading-10 mb-8 leading-[3rem];
+      @apply text-5xl font-bold leading-10 mb-10 leading-[3rem];
     }
     h2 {
       @apply text-2xl font-bold leading-6 mb-5;
     }
     h3 {
-      @apply text-lg font-bold;
+      @apply text-xl font-bold;
     }
     a {
       @apply text-primary-color hover:text-slate-400 block;

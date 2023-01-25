@@ -375,7 +375,7 @@ video {
   display: none;
 }
     h1 {
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   font-size: 3rem;
   line-height: 1;
   font-weight: 700;
@@ -388,7 +388,7 @@ video {
   line-height: 1.5rem;
 }
     h3 {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 700;
 }
@@ -621,6 +621,10 @@ video {
   min-width: 100px;
 }
 
+.min-w-\[80px\] {
+  min-width: 80px;
+}
+
 .max-w-4xl {
   max-width: 56rem;
 }
@@ -631,6 +635,10 @@ video {
 
 .max-w-\[140px\] {
   max-width: 140px;
+}
+
+.max-w-\[100px\] {
+  max-width: 100px;
 }
 
 .flex-row {
@@ -729,6 +737,18 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0px * var(--tw-space-y-reverse));
+}
+
+.space-x-24 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(6rem * var(--tw-space-x-reverse));
+  margin-left: calc(6rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-12 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(3rem * var(--tw-space-x-reverse));
+  margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-reverse > :not([hidden]) ~ :not([hidden]) {

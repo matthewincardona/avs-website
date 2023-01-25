@@ -5,7 +5,7 @@ title: "Home"
 
 <h1>Project Lead<br> and Members</h1>
 
-<h3>Project Lead</h3>
+<h2>Project Lead</h2>
 <div class="mb-12 mt-6 flex items-start md:items-center space-x-8 space-y-0">
     <picture class="max-w-[140px] min-w-[100px]">
         <source srcset="assets/img/nidhi-rastogi.png" type="image/webp">
@@ -25,7 +25,7 @@ title: "Home"
     </div>
 </div>
 
-<h3>Collaborators</h3>
+<h2>Collaborators</h2>
 <div class="mb-12 mt-6 flex items-start md:items-center space-x-8 space-y-0">
     <picture class="max-w-[140px] min-w-[100px]">
         <source srcset="assets/img/sara-rampazzi.png" type="image/webp">
@@ -56,7 +56,7 @@ title: "Home"
     </div>
 </div>
 
-<h3>Student Researchers</h3>
+<h2>Student Researchers</h2>
 <div class="mb-12 mt-6 flex items-start md:items-center space-x-8 space-y-0">
     <picture class="max-w-[140px] min-w-[100px]">
         <source srcset="assets/img/praveen-chandrasekaran.png" type="image/webp">
@@ -81,7 +81,7 @@ title: "Home"
     </picture>
     <div class="">
         <div class="flex justify-between">
-            <h3 class="">Ajay Ashok Shewale</h3><a href=""  class="whitespace-nowrap">Contact ></a>
+            <h3 class="">Ajay Ashok Shewale</h3><a href="" class="whitespace-nowrap">Contact ></a>
         </div>
         <p class="font-bold">Research Assistant</p>
         <p>Graduate Student at Rochester Institute of Technology</p>
@@ -103,4 +103,72 @@ title: "Home"
         <p>Principal Research- Security and Privacy at Toyota Infotech</p>
         <a class="mt-4" href="">Personal Website ></a>
     </div>
+</div>
+
+<h3>Other Institutions</h3>
+<div class="flex justify-center space-x-24">
+    <figure class="mt-6 max-w-[140px] min-w-[100px]">
+        <picture class="">
+            <source srcset="assets/img/california-davis.png" type="image/webp">
+            <source srcset="" type="image/png">
+            <img src="" alt="">
+        </picture>
+        <figcaption class="text-center font-bold mt-4">University of California Davis</figcaption>
+    </figure>
+
+    <figure class="mt-6 max-w-[140px] min-w-[100px]">
+        <picture class="">
+            <source srcset="assets/img/california-irvine.png" type="image/webp">
+            <source srcset="" type="image/png">
+            <img src="" alt="">
+        </picture>
+        <figcaption class="text-center font-bold mt-4">University of California Irvine</figcaption>
+    </figure>
+</div>
+
+<h3>Alumni</h3>
+<div class="flex flex-wrap space-x-12">
+    <figure class="">
+        <picture>
+            <source class="mt-6 max-w-[100px] min-w-[80px]" srcset="assets/img/rigved-rakshit.png" type="image/webp">
+            <source class="mt-6 max-w-[100px] min-w-[80px]" srcset="" type="image/png">
+            <img class="mt-6 max-w-[100px] min-w-[80px]" src="" alt="">
+        </picture>
+        <figcaption class="font-bold mt-4">
+            <p>Rigved Rakshit</p><a href="">LinkedIn ></a>
+        </figcaption>
+    </figure>
+
+    <figure>
+        <picture class="">
+            <source class="mt-6 max-w-[100px] min-w-[80px]" srcset="assets/img/alana-hough.png" type="image/webp">
+            <source class="mt-6 max-w-[100px] min-w-[80px]" srcset="" type="image/png">
+            <img class="mt-6 max-w-[100px] min-w-[80px]" src="" alt="">
+        </picture>
+        <figcaption class="font-bold mt-4">
+            <p>Alana Hough</p><a href="">LinkedIn ></a>
+        </figcaption>
+    </figure>
+
+    <figure>
+        <picture class="">
+            <source class="mt-6 max-w-[100px] min-w-[80px]" srcset="assets/img/isabela-caetano.png" type="image/webp">
+            <source class="mt-6 max-w-[100px] min-w-[80px]" srcset="" type="image/png">
+            <img class="mt-6 max-w-[100px] min-w-[80px]" src="" alt="">
+        </picture>
+        <figcaption class="font-bold mt-4">
+            <p>Isabela Caetano</p><a href="">LinkedIn ></a>
+        </figcaption>
+    </figure>
+
+    <figure>
+        <picture class="">
+            <source class="mt-6 max-w-[100px] min-w-[80px]" srcset="assets/img/sachin-kumar-gupta.png" type="image/webp">
+            <source class="mt-6 max-w-[100px] min-w-[80px]" srcset="" type="image/png">
+            <img class="mt-6 max-w-[100px] min-w-[80px]" src="" alt="">
+        </picture>
+        <figcaption class="font-bold mt-4">
+            <p>Sachin Kumar Gupta</p><a href="">LinkedIn ></a>
+        </figcaption>
+    </figure>
 </div>
