@@ -5,7 +5,7 @@
 
 @layer base {
     h1 {
-      @apply text-5xl font-bold leading-10 mb-8 text-[#FFE6CF] leading-[3rem];
+      @apply text-5xl font-bold leading-10 mb-8 leading-[3rem];
     }
     h2 {
       @apply text-2xl font-bold leading-6 mb-5;

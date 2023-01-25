@@ -380,8 +380,6 @@ video {
   line-height: 1;
   font-weight: 700;
   line-height: 3rem;
-  --tw-text-opacity: 1;
-  color: rgb(255 230 207 / var(--tw-text-opacity));
 }
     h2 {
   margin-bottom: 1.25rem;
@@ -801,6 +799,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#FFE6CF\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 230 207 / var(--tw-text-opacity));
 }
 
 .text-gray-500 {
