@@ -536,6 +536,10 @@ video {
   left: 0px;
 }
 
+.mt-24 {
+  margin-top: 6rem;
+}
+
 .ml-auto {
   margin-left: auto;
 }
