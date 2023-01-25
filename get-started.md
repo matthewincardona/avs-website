@@ -40,7 +40,7 @@ title: Get Started
     voluptatibus voluptatem deleniti distinctio quod cumque quaerat. Debitis exercitationem accusantium voluptate, unde
     inventore veritatis et! Accusantium ea officiis repudiandae in modi tempore totam id.</p>
 
-<div class="grid grid-rows-2 lg:grid-cols-2 gap-4">
+<div class="grid lg:grid-cols-2 gap-4 mb-6">
     <picture>
         <source srcset="" type="image/webp">
         <source srcset="assets/img/explanation-models.png" type="image/png">
@@ -52,7 +52,7 @@ title: Get Started
         Pellentesque ipsum et turpis arcu viverra. Eros, amet in viverra accumsan.</p>
 </div>
 
-<div class="grid grid-rows-2 lg:grid-cols-2 gap-4">
+<div class="grid lg:grid-cols-2 gap-4 mb-6">
     <picture>
         <source srcset="" type="image/webp">
         <source srcset="assets/img/explanation-models.png" type="image/png">
@@ -64,7 +64,7 @@ title: Get Started
         Pellentesque ipsum et turpis arcu viverra. Eros, amet in viverra accumsan.</p>
 </div>
 
-<div class="grid grid-rows-2 lg:grid-cols-2 gap-4">
+<div class="grid lg:grid-cols-2 gap-4 mb-6">
     <picture>
         <source srcset="" type="image/webp">
         <source srcset="assets/img/explanation-models.png" type="image/png">
@@ -89,13 +89,13 @@ title: Get Started
 <div class="flex mb-6">
     <p>Duis nec nullam volutpat diam. Leo mauris blandit mi ac imperdiet posuere. Est facilisi nisi, turpis viverra mi
         arcu.</p>
-    <button>GitHub</button>
+    <button class="text-black bg-transparent border-black">GitHub</button>
 </div>
 
 <div class="flex mb-6">
     <p>Duis nec nullam volutpat diam. Leo mauris blandit mi ac imperdiet posuere. Est facilisi nisi, turpis viverra mi
         arcu.</p>
-    <button>Coma.ai</button>
+    <button class="text-black bg-transparent border-black">Coma.ai</button>
 </div>
 
 <div class="flex mb-12">
