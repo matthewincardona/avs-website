@@ -12,16 +12,16 @@ title: "Home"
         <source srcset="" type="image/png">
         <img src="" alt="">
     </picture>
-    <div class="">
+    <div class="w-full">
         <div class="flex justify-between">
-            <h3 class="">Dr. Nidhi Rastogi</h3><a href="" class="">Contact ></a>
+            <h3 class="">Dr. Nidhi Rastogi</h3><a href="" class="block ml-auto whitespace-nowrap">Contact ></a>
         </div>
         <p class="font-bold">Assistant Professor at Rochester Institute of Technology</p>
         <p>Department of Software Engineering
             Golisano College of Computing and Information Sciences
         </p>
-        <a class="mt-4" href="">Personal Website ></a>
-        <a href="">Google Scholar ></a>
+        <a class="block mt-4" href="">Personal Website ></a>
+        <a href="" class="block">Google Scholar ></a>
     </div>
 </div>
 
@@ -32,9 +32,9 @@ title: "Home"
         <source srcset="" type="image/png">
         <img src="" alt="">
     </picture>
-    <div class="">
+    <div class="w-full">
         <div class="flex justify-between">
-            <h3 class="">Dr. Sara Rampazzi</h3><a href="" class="whitespace-nowrap">Contact ></a>
+            <h3 class="">Dr. Sara Rampazzi</h3><a href="" class="block whitespace-nowrap">Contact ></a>
         </div>
         <p class="font-bold">Assistant Professor at University of Florida</p>
         <a class="mt-4" href="">Personal Website ></a>
@@ -47,9 +47,9 @@ title: "Home"
         <source srcset="" type="image/png">
         <img src="" alt="">
     </picture>
-    <div class="">
+    <div class="w-full">
         <div class="flex justify-between">
-            <h3 class="">Dr. Michael Clifford</h3><a href="" class="whitespace-nowrap">Contact ></a>
+            <h3 class="">Dr. Michael Clifford</h3><a href="" class="block ml-auto whitespace-nowrap">Contact ></a>
         </div>
         <p class="font-bold">Principal Research- Security and Privacy at Toyota Infotech</p>
         <a class="mt-4" href="">Personal Website ></a>
@@ -63,9 +63,9 @@ title: "Home"
         <source srcset="" type="image/png">
         <img src="" alt="">
     </picture>
-    <div class="">
+    <div class="w-full">
         <div class="flex justify-between">
-            <h3 class="">Praveen Chandrasekaran</h3><a href="" class="whitespace-nowrap">Contact ></a>
+            <h3 class="">Praveen Chandrasekaran</h3><a href="" class="block ml-auto whitespace-nowrap">Contact ></a>
         </div>
         <p class="font-bold">Machine Learning Research Assistant</p>
         <p>Graduate Student at Rochester Institute of Technology</p>
@@ -79,9 +79,9 @@ title: "Home"
         <source srcset="" type="image/png">
         <img src="" alt="">
     </picture>
-    <div class="">
+    <div class="w-full">
         <div class="flex justify-between">
-            <h3 class="">Ajay Ashok Shewale</h3><a href="" class="whitespace-nowrap">Contact ></a>
+            <h3 class="">Ajay Ashok Shewale</h3><a href="" class="block ml-auto whitespace-nowrap">Contact ></a>
         </div>
         <p class="font-bold">Research Assistant</p>
         <p>Graduate Student at Rochester Institute of Technology</p>
@@ -95,9 +95,9 @@ title: "Home"
         <source srcset="" type="image/png">
         <img src="" alt="">
     </picture>
-    <div class="">
+    <div class="w-full">
         <div class="flex justify-between">
-            <h3>Dipkamal Bhusal</h3><a href="" class="whitespace-nowrap">Contact ></a>
+            <h3>Dipkamal Bhusal</h3><a href="" class="block ml-auto whitespace-nowrap">Contact ></a>
         </div>
         <p class="font-bold">Research Assistant</p>
         <p>Principal Research- Security and Privacy at Toyota Infotech</p>
