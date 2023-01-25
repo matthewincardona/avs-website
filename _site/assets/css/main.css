@@ -398,9 +398,9 @@ video {
 }
     a:hover {
   --tw-text-opacity: 1;
-  color: rgb(148 163 184 / var(--tw-text-opacity));
+  color: rgb(71 85 105 / var(--tw-text-opacity));
 }
-    button {
+    .btn {
   width: 12rem;
   border-radius: 9999px;
   border-width: 2px;
@@ -412,22 +412,35 @@ video {
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
-    button:hover {
+    .btn--primary {
   --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  border-color: rgb(226 97 5 / var(--tw-border-opacity));
+}
+    .btn--primary:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  background-color: rgb(226 97 5 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-
+    .btn--secondary {
+  border-color: var(--secondary-color);
+  background-color: transparent;
+  color: var(--secondary-color);
+}
+    .btn--secondary:hover {
+  background-color: #FFFFFF20;
+}
     * {
       /* @apply bg-slate-500/10; */
     }
 
     :root {
       --primary-color: #FF6B00;
+      --secondary-color: #FFE6CF;
     }
 
 *, ::before, ::after {

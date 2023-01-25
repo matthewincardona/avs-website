@@ -14,18 +14,24 @@
       @apply text-xl font-bold leading-6;
     }
     a {
-      @apply text-primary-color hover:text-slate-400 inline-block;
+      @apply text-primary-color hover:text-slate-600 inline-block;
     }
-    button {
-      @apply text-white bg-primary-color rounded-full w-48 text-center font-bold py-2 border-2 border-primary-color hover:text-white hover:bg-black hover:border-black;
+    .btn {
+      @apply transition-all text-white bg-primary-color rounded-full w-48 text-center font-bold py-2 border-primary-color border-2;
     }
-
+    .btn--primary {
+      @apply hover:text-white hover:bg-[#e26105] border-[#e26105];
+    }
+    .btn--secondary {
+      @apply bg-transparent text-secondary-color border-secondary-color hover:bg-[#FFFFFF20];
+    }
     * {
       /* @apply bg-slate-500/10; */
     }
 
     :root {
       --primary-color: #FF6B00;
+      --secondary-color: #FFE6CF;
     }
   }
 
