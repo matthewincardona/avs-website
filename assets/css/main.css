@@ -19,11 +19,14 @@
     .btn {
       @apply transition-all text-white bg-primary-color rounded-full w-48 text-center font-bold py-2 border-primary-color border-2;
     }
-    .btn--primary {
+    .btn--orange {
       @apply hover:text-white hover:bg-[#e26105] border-[#e26105];
     }
-    .btn--secondary {
+    .btn--light-orange {
       @apply bg-transparent text-secondary-color border-secondary-color hover:bg-[#FFFFFF20];
+    }
+    .btn--black {
+      @apply bg-transparent text-black border-black;
     }
     * {
       /* @apply bg-slate-500/10; */

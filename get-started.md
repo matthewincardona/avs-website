@@ -89,19 +89,19 @@ title: Get Started
 <div class="flex mb-6">
     <p>Duis nec nullam volutpat diam. Leo mauris blandit mi ac imperdiet posuere. Est facilisi nisi, turpis viverra mi
         arcu.</p>
-    <button class="text-black bg-transparent border-black">GitHub</button>
+    <button class="btn btn--black">GitHub</button>
 </div>
 
 <div class="flex mb-6">
     <p>Duis nec nullam volutpat diam. Leo mauris blandit mi ac imperdiet posuere. Est facilisi nisi, turpis viverra mi
         arcu.</p>
-    <button class="text-black bg-transparent border-black">Coma.ai</button>
+    <button class="btn btn--black">Coma.ai</button>
 </div>
 
 <div class="flex mb-12">
     <p>Duis nec nullam volutpat diam. Leo mauris blandit mi ac imperdiet posuere. Est facilisi nisi, turpis viverra mi
         arcu.</p>
-    <button>Contribute</button>
+    <button class="btn btn--orange">Contribute</button>
 </div>
 
 <p>Duis nec nullam volutpat diam. Leo mauris blandit mi ac imperdiet posuere. Est facilisi nisi, turpis viverra mi arcu.

@@ -34,8 +34,8 @@ title: "Home"
 <br><br>
 
 <div class="mb-12 flex px-6 py-5 bg-black text-white justify-between items-center">
-    <p>Leo mauris blandit mi ac imperdiet posuere.</p>
-    <button class="bg-transparent border-2 border-white hover:bg-white-500">GitHub</button>
+    <p class="text-secondary-color">Leo mauris blandit mi ac imperdiet posuere.</p>
+    <button class="btn btn--light-orange">GitHub</button>
 </div>
 
 <div class="mb-2 flex flex-wrap items-start justify-between">
@@ -87,7 +87,7 @@ title: "Home"
 <div class="flex justify-center items-center flex-col text-white space-y-6 px-6 py-6"
     style="background: linear-gradient(180deg, #000000 0%, #552400 100%);">
     <p>Leo mauris blandit mi ac imperdiet posuere.</p>
-    <button>Contribute</button>
+    <button class="btn btn--orange">Contribute</button>
 </div>
 
 <p class="mt-6">Duis nec nullam volutpat diam. Leo mauris blandit mi ac imperdiet posuere. Est facilisi nisi, turpis
