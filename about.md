@@ -3,8 +3,6 @@ layout: default
 title: About
 ---
 
-<h1>{{page.title}}</h1>
-
 <h2>Introduction</h2>
 
 <p>Machine learning (ML) applications are driving innovation in connected and autonomous vehicles (CAVs). To enable

@@ -3,8 +3,6 @@ layout: default
 title: Get Started
 ---
 
-<h1>Get Started</h1>
-
 <h2>Project Structure</h2>
 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt est veritatis tempora laudantium in mollitia
     provident commodi necessitatibus a nostrum maiores tempore, praesentium fugiat amet quo voluptas ipsum nobis.

@@ -3,8 +3,6 @@ layout: default
 title: "Members"
 ---
 
-<h1>Project Lead<br> and Members</h1>
-
 <h2>Project Lead</h2>
 <div class="mb-12 mt-6 flex items-start md:items-center space-x-8 space-y-0">
     <picture class="max-w-[140px] min-w-[100px]">
