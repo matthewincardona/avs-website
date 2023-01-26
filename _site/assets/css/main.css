@@ -417,10 +417,11 @@ video {
   transition-duration: 150ms;
 }
     .btn--orange {
-  --tw-border-opacity: 1;
-  border-color: rgb(226 97 5 / var(--tw-border-opacity));
+  border-color: var(--primary-color);
 }
     .btn--orange:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(226 97 5 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
   background-color: rgb(226 97 5 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
