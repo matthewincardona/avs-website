@@ -657,8 +657,8 @@ video {
   margin-top: 4rem;
 }
 
-.mr-6 {
-  margin-right: 1.5rem;
+.mr-4 {
+  margin-right: 1rem;
 }
 
 .mb-6 {
@@ -675,10 +675,6 @@ video {
 
 .mb-12 {
   margin-bottom: 3rem;
-}
-
-.mr-4 {
-  margin-right: 1rem;
 }
 
 .mr-8 {
