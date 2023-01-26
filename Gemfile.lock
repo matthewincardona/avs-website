@@ -258,7 +258,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (~> 227)
-  jekyll (~> 3.9.2)
   jekyll-postcss-v2
 
 BUNDLED WITH
