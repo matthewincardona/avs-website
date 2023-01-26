@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/assets/css/main.css">
   </head>
   <body>
-  <header class="py-20 px-4 bg-center bg-cover" style="background-image: url('/assets/img/hero-bg.jpg');">
+  <header class="pt-36 pb-20 sm:py-20 px-6 bg-center bg-cover" style="background-image: url('/assets/img/hero-bg.jpg');">
     <div class="flex justify-center flex-col max-w-4xl ml-auto mr-auto">
         <h1 class="text-[#FFE6CF]">Explainable Security:<br> Autonomous Vehicles</h1>
         <p class="max-w-prose text-white">Duis nec nullam volutpat diam. Leo mauris blandit mi ac imperdiet posuere. Est
@@ -21,16 +21,37 @@
     </div>
 </header>
     <main class="p-10 space-x-4 max-w-4xl flex justify-center ml-auto mr-auto">
-          <nav class="w-40 min-w-fit mr-6">
-      <ul class="sticky top-10 left-0 text-right space-y-2">
-        <li><a class="text-gray-500" href="/">Home</a></li>
-        <li><a class="text-gray-500" href="/about">About</a></li>
-        <li><a class="text-gray-500" href="/get-started">Get Started</a></li>
-        <li><a class="text-gray-500" href="/members">Members</a></li>
-        <li><a class="text-gray-500" href="/news-room">News Room</a></li>
-        <li><a class="text-gray-500" href="">GitHub</a></li>
-      </ul>
-    </nav>
+      <nav class="hidden sm:block w-40 min-w-fit mr-6">
+  <ul class="sticky top-10 left-0 text-right space-y-2">
+    <li><a class="text-gray-500" href="/">Home</a></li>
+    <li><a class="text-gray-500" href="/about">About</a></li>
+    <li><a class="text-gray-500" href="/get-started">Get Started</a></li>
+    <li><a class="text-gray-500" href="/members">Members</a></li>
+    <li><a class="text-gray-500" href="/news-room">News Room</a></li>
+    <li><a class="text-gray-500" href="">GitHub</a></li>
+  </ul>
+</nav>
+
+<div class="sm:hidden fixed w-full top-0 right-0 px-6 py-6 pr-10 bg-black">
+  <p class="inline-block font-bold text-white">Autonomous Vehicle Security</p>
+  <input class="hidden mobile-menu-toggle" type="checkbox" id="mobile-menu-toggle" />
+  <label class="hamb" for="mobile-menu-toggle"><span class="hamb-line"></span></label>
+  <nav class="pt-8" id="mobile-menu">
+    <ul class="space-y-4 pb-6 text-center flex-col justify-center">
+      <li><a class="text-white" href="/">Home</a></li>
+      <hr class="w-[80%] ml-auto mr-auto border-[#393939]">
+      <li><a class="text-white" href="/about">About</a></li>
+      <hr class="w-[80%] ml-auto mr-auto border-[#393939]">
+      <li><a class="text-white" href="/get-started">Get Started</a></li>
+      <hr class="w-[80%] ml-auto mr-auto border-[#393939]">
+      <li><a class="text-white" href="/members">Members</a></li>
+      <hr class="w-[80%] ml-auto mr-auto border-[#393939]">
+      <li><a class="text-white" href="/news-room">News Room</a></li>
+      <hr class="w-[80%] ml-auto mr-auto border-[#393939]">
+      <li><a class="text-white" href="">GitHub</a></li>
+    </ul>
+  </nav>
+</div>
       <div>
       <h1>Project Lead<br /> and Members</h1>
 

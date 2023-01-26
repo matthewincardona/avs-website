@@ -32,6 +32,70 @@
       /* @apply bg-slate-500/10; */
     }
 
+    #mobile-menu {
+      position: absolute;
+      left: 0;
+      z-index: -1;
+      width: 100%;
+      background-color: black;
+      display: hidden;
+      opacity: 0;
+      transition: all .2s ease-out;
+    }
+    
+    #mobile-menu-toggle:checked ~ #mobile-menu {
+      display: block;
+      opacity: 1;
+    }
+
+    /* gross code, but it checks for the hamb-line class inside of a label that follows the mobile-menu-toggle */
+    #mobile-menu-toggle:checked ~ label .hamb-line {
+      background: black;
+    }
+
+    #mobile-menu-toggle:checked ~ label .hamb-line::before {
+      transform: rotate(45deg);
+      transform-origin: 20px 2px;
+    }
+
+    #mobile-menu-toggle:checked ~ label .hamb-line::after {
+      transform: rotate(-45deg);
+      transform-origin: 19px 0px;
+    }
+
+    /* Menu Icon */
+    .hamb {
+      cursor: pointer;
+      float: right;
+      padding: 10px 20px;
+    }
+
+    .hamb-line {
+      background: white;
+      display: block;
+      height: 2px;
+      position: relative;
+      width: 24px;
+      transition: all .1s ease-out;
+    }
+
+    .hamb-line::before,
+    .hamb-line::after{
+      background: white;
+      content: '';
+      display: block;
+      height: 100%;
+      position: absolute;
+      transition: all .2s ease-out;
+      width: 100%;
+    }
+    .hamb-line::before{
+      top: 5px;
+    }
+    .hamb-line::after{
+      top: -5px;
+    }
+
     :root {
       --primary-color: #FF6B00;
       --secondary-color: #FFE6CF;

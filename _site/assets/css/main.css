@@ -446,6 +446,70 @@ video {
       /* @apply bg-slate-500/10; */
     }
 
+    #mobile-menu {
+      position: absolute;
+      left: 0;
+      z-index: -1;
+      width: 100%;
+      background-color: black;
+      display: hidden;
+      opacity: 0;
+      transition: all .2s ease-out;
+    }
+    
+    #mobile-menu-toggle:checked ~ #mobile-menu {
+      display: block;
+      opacity: 1;
+    }
+
+    /* gross code, but it checks for the hamb-line class inside of a label that follows the mobile-menu-toggle */
+    #mobile-menu-toggle:checked ~ label .hamb-line {
+      background: black;
+    }
+
+    #mobile-menu-toggle:checked ~ label .hamb-line::before {
+      transform: rotate(45deg);
+      transform-origin: 20px 2px;
+    }
+
+    #mobile-menu-toggle:checked ~ label .hamb-line::after {
+      transform: rotate(-45deg);
+      transform-origin: 19px 0px;
+    }
+
+    /* Menu Icon */
+    .hamb {
+      cursor: pointer;
+      float: right;
+      padding: 10px 20px;
+    }
+
+    .hamb-line {
+      background: white;
+      display: block;
+      height: 2px;
+      position: relative;
+      width: 24px;
+      transition: all .1s ease-out;
+    }
+
+    .hamb-line::before,
+    .hamb-line::after{
+      background: white;
+      content: '';
+      display: block;
+      height: 100%;
+      position: absolute;
+      transition: all .2s ease-out;
+      width: 100%;
+    }
+    .hamb-line::before{
+      top: 5px;
+    }
+    .hamb-line::after{
+      top: -5px;
+    }
+
     :root {
       --primary-color: #FF6B00;
       --secondary-color: #FFE6CF;
@@ -545,6 +609,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .sticky {
   position: sticky;
 }
@@ -555,6 +623,14 @@ video {
 
 .left-0 {
   left: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.right-0 {
+  right: 0px;
 }
 
 .mt-24 {
@@ -629,12 +705,20 @@ video {
   display: block;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
 }
 
 .grid {
   display: grid;
+}
+
+.hidden {
+  display: none;
 }
 
 .w-full {
@@ -647,6 +731,10 @@ video {
 
 .w-40 {
   width: 10rem;
+}
+
+.w-\[80\%\] {
+  width: 80%;
 }
 
 .w-36 {
@@ -752,16 +840,16 @@ video {
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
-.space-x-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1rem * var(--tw-space-x-reverse));
-  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-8 > :not([hidden]) ~ :not([hidden]) {
@@ -790,6 +878,11 @@ video {
   white-space: nowrap;
 }
 
+.border-\[\#393939\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(57 57 57 / var(--tw-border-opacity));
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -811,19 +904,14 @@ video {
   padding: 2.5rem;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .py-5 {
@@ -831,8 +919,23 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
+.pt-36 {
+  padding-top: 9rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pr-10 {
+  padding-right: 2.5rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pb-6 {
   padding-bottom: 1.5rem;
 }
 
@@ -882,6 +985,14 @@ video {
     margin-left: 0px;
   }
 
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
+
   .sm\:flex-nowrap {
     flex-wrap: nowrap;
   }
@@ -892,6 +1003,11 @@ video {
 
   .sm\:gap-24 {
     gap: 6rem;
+  }
+
+  .sm\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 }
 
