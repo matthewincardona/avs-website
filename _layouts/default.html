@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
   <body>
-  {% include hero.html %}
+    <!-- Show different variants of the hero section depending on page -->
+    {% if page.title == "Home" %}
+    {% include hero-home.html %}
+    {% else %}
+    {% include hero.html %}
+    {% endif %}
     <main class="p-10 space-x-4 max-w-4xl flex justify-center ml-auto mr-auto">
       {% include navigation.html %}
       <div>

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Home"
+title: "Members"
 ---
 
 <h1>Project Lead<br> and Members</h1>
