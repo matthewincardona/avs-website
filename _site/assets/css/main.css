@@ -490,7 +490,7 @@ video {
       height: 2px;
       position: relative;
       width: 24px;
-      transition: all .1s ease-out;
+      transition: all .15s ease-out;
     }
 
     .hamb-line::before,
