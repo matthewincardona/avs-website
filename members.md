@@ -18,8 +18,8 @@ title: "Members"
         <p>Department of Software Engineering
             Golisano College of Computing and Information Sciences
         </p>
-        <a class="block mt-4" href="">Personal Website ></a>
-        <a href="" class="block">Google Scholar ></a>
+        <a class="mt-4" href="">Personal Website ></a>
+        <a href="" class="">Google Scholar ></a>
     </div>
 </div>
 
