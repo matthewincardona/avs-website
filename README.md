@@ -14,3 +14,5 @@ And to make sure Tailwind regenerates static files, run the server with live rel
 <br>
 `bundle exec jekyll serve --livereload
 `
+
+Double note: to avoid any issues, the Gemfile is currently ignored and not updated when pushing.
