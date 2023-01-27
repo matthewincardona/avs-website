@@ -2,7 +2,7 @@
 layout: default
 title: "Home"
 ---
-<h1>{{ site.baseurl }}</h1>
+
 <h2>Unraveling ML models for ensuring security</h2>
 <p class="mb-12">Research has demonstrated how these models are vulnerable to spoofing and adversarial examples resulting from
     small-magnitude perturbations in the input data. Therefore, understanding inputs (e.g., sensor data) is a critical
