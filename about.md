@@ -19,7 +19,7 @@ title: About
     thereby reducing risks to life and property.
 </p>
 
-<div class="flex space-x-4 mb-6 mt-6">
+<div class="flex md:flex-nowrap flex-wrap md:space-x-6 space-y-6 md:space-y-0 mb-10 mt-6">
     <figure>
         <picture>
             <source srcset="" type="image/webp">

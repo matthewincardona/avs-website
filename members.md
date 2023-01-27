@@ -4,7 +4,7 @@ title: "Members"
 ---
 
 <h2>Project Lead</h2>
-<div class="mb-12 mt-6 flex items-start md:items-center space-x-8 space-y-0">
+<div class="mb-12 mt-6 flex items-start md:items-center space-x-4 sm:space-x-8 space-y-0 pr-3">
     <picture class="max-w-[140px] min-w-[100px]">
         <source srcset="" type="image/webp">
         <source srcset="assets/img/nidhi-rastogi.png" type="image/png">
@@ -12,7 +12,7 @@ title: "Members"
     </picture>
     <div class="w-full">
         <div class="flex justify-between">
-            <h3 class="">Dr. Nidhi Rastogi</h3><a href="" class="block ml-auto whitespace-nowrap">Contact ></a>
+            <h3 class="inline-block">Dr. Nidhi Rastogi</h3><a href="" class="block ml-auto whitespace-nowrap">Contact ></a>
         </div>
         <p class="font-bold">Assistant Professor at Rochester Institute of Technology</p>
         <p>Department of Software Engineering
@@ -24,7 +24,7 @@ title: "Members"
 </div>
 
 <h2>Collaborators</h2>
-<div class="mb-12 mt-6 flex items-start md:items-center space-x-8 space-y-0">
+<div class="mb-12 mt-6 flex items-start md:items-center space-x-4 sm:space-x-8 space-y-0 pr-3">
     <picture class="max-w-[140px] min-w-[100px]">
         <source srcset="" type="image/webp">
         <source srcset="assets/img/sara-rampazzi.png" type="image/png">
@@ -39,7 +39,7 @@ title: "Members"
     </div>
 </div>
 
-<div class="mb-12 mt-6 flex items-start md:items-center space-x-8 space-y-0">
+<div class="mb-12 mt-6 flex items-start md:items-center space-x-4 sm:space-x-8 space-y-0 pr-3">
     <picture class="max-w-[140px] min-w-[100px]">
         <source srcset="" type="image/webp">
         <source srcset="assets/img/michael-clifford.png" type="image/png">
@@ -55,7 +55,7 @@ title: "Members"
 </div>
 
 <h2>Student Researchers</h2>
-<div class="mb-12 mt-6 flex items-start md:items-center space-x-8 space-y-0">
+<div class="mb-12 mt-6 flex items-start md:items-center space-x-4 sm:space-x-8 space-y-0 pr-3">
     <picture class="max-w-[140px] min-w-[100px]">
         <source srcset="" type="image/webp">
         <source srcset="assets/img/praveen-chandrasekaran.png" type="image/png">
@@ -71,7 +71,7 @@ title: "Members"
     </div>
 </div>
 
-<div class="mb-12 mt-6 flex items-start md:items-center space-x-8 space-y-0">
+<div class="mb-12 mt-6 flex items-start md:items-center space-x-4 sm:space-x-8 space-y-0 pr-3">
     <picture class="max-w-[140px] min-w-[100px]">
         <source srcset="" type="image/webp">
         <source srcset="assets/img/ajay-ashok-shewale.png" type="image/png">
@@ -87,7 +87,7 @@ title: "Members"
     </div>
 </div>
 
-<div class="mb-12 mt-6 flex items-start md:items-center space-x-8 space-y-0">
+<div class="mb-12 mt-6 flex items-start md:items-center space-x-4 sm:space-x-8 space-y-0 pr-3">
     <picture class="max-w-[140px] min-w-[100px]">
         <source srcset="" type="image/webp">
         <source srcset="assets/img/dipkamal-bhusal.png" type="image/png">

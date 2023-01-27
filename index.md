@@ -37,7 +37,7 @@ title: "Home"
     <a class="" href="">Meet the Team ></a>
 </div>
 
-<div class="mb-12 font-bold text-center flex items-start justify-start flex-wrap space-x-8 space-x-reverse space-y-4">
+<div class="mb-12 font-bold text-center flex items-start justify-center sm:justify-start flex-wrap space-x-8 space-x-reverse space-y-4">
 
     <div class="mr-8 mt-4 w-36 flex flex-col">
         <picture>
