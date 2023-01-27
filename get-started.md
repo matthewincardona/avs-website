@@ -4,7 +4,7 @@ title: Get Started
 ---
 
 <h2>Project Structure</h2>
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt est veritatis tempora laudantium in mollitia
+<p class="mb-8">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt est veritatis tempora laudantium in mollitia
     provident commodi necessitatibus a nostrum maiores tempore, praesentium fugiat amet quo voluptas ipsum nobis.
     Ratione quos quaerat illum ipsa temporibus atque quibusdam dolorum! Quasi nisi saepe, repellat corporis earum veniam
     amet quibusdam omnis tenetur asperiores, veritatis vitae culpa fugit fugiat dignissimos! Excepturi repellendus
@@ -18,8 +18,6 @@ title: Get Started
     delectus similique asperiores? Error obcaecati a inventore harum officiis nemo minus, autem, unde eum ipsam dolore,
     cum doloremque cumque placeat sequi cupiditate commodi? Odit nulla veritatis obcaecati, quam sint eligendi quo nobis
     aperiam cupiditate, voluptas a voluptate laborum voluptatibus.</p>
-<br><br>
-
 
 <h2>Initial Setups</h2>
 <p class="mb-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolor voluptatem dolorem beatae ullam
@@ -102,12 +100,12 @@ title: Get Started
     <button class="btn btn--orange">Contribute</button>
 </div>
 
-<p>Duis nec nullam volutpat diam. Leo mauris blandit mi ac imperdiet posuere. Est facilisi nisi, turpis viverra mi arcu.
+<p class="mb-8">Duis nec nullam volutpat diam. Leo mauris blandit mi ac imperdiet posuere. Est facilisi nisi, turpis viverra mi arcu.
     Sed volutpat dui dignissim neque, venenatis natoque in. Et sem sed mauris porttitor. Pellentesque adipiscing quis
     sit sagittis est augue purus arcu. In diam purus semper pulvinar felis ut euismod malesuada. Pellentesque ipsum et
-    turpis arcu viverra. Eros, amet in viverra accumsan.<br><br>
+    turpis arcu viverra. Eros, amet in viverra accumsan.
 </p>
-<p>Et enim pulvinar eget diam risus eget nulla eros non. Facilisi arcu ut commodo, tortor faucibus gravida urna magna.
+<p class="mb-8">Et enim pulvinar eget diam risus eget nulla eros non. Facilisi arcu ut commodo, tortor faucibus gravida urna magna.
     Blandit penatibus phasellus posuere quisque pellentesque adipiscing eget. Mi augue tristique nibh molestie
     fermentum, at. Fermentum, mauris nisi, feugiat convallis turpis enim eget. Sed eu sit nunc, sed. Scelerisque elit
     velit tempus duis tortor purus, non id aliquet. Ullamcorper vel magna magnis vitae orci sed vivamus. Posuere
