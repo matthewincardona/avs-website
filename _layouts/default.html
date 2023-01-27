@@ -9,13 +9,13 @@
   <body>
     <!-- Show different variants of the hero section depending on page -->
     {% if page.title == "Home" %}
-    {% include hero-home.html %}
+      {% include hero-home.html %}
     {% else %}
-    {% include hero.html %}
+      {% include hero.html %}
     {% endif %}
-    <main class="p-10 space-x-4 w-4xl flex justify-center ml-auto mr-auto">
+    <main class="p-10 space-x-4 max-w-4xl flex justify-center ml-auto mr-auto">
       {% include navigation.html %}
-      <div>
+      <div class="w-[100rem]">
       {{ content }}
       </div>
   </main>
