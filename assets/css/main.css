@@ -55,12 +55,12 @@
 
     #mobile-menu-toggle:checked ~ label .hamb-line::before {
       transform: rotate(45deg);
-      transform-origin: 20px 2px;
+      transform-origin: 17px -1px;
     }
 
     #mobile-menu-toggle:checked ~ label .hamb-line::after {
       transform: rotate(-45deg);
-      transform-origin: 19px 0px;
+      transform-origin: 19px 4px;
     }
 
     /* Menu Icon */
@@ -68,6 +68,18 @@
       cursor: pointer;
       float: right;
       padding: 10px 20px;
+    }
+
+    /* use a pseudo element to create a bigger tappable area */
+    .hamb::after {
+      content: '';
+      height: 44px;
+      width: 44px;
+      transform: translate(-10px, -23px);
+      border-radius: 100%;
+      position: absolute;
+      /* background-color: #FFE6CF80; */
+      cursor: pointer;
     }
 
     .hamb-line {
