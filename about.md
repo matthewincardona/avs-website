@@ -22,16 +22,16 @@ title: About
 <div class="flex space-x-4 mb-6 mt-6">
     <figure>
         <picture>
-            <source srcset="assets/img/explanation-models.png" type="image/webp">
-            <source srcset="" type="image/png">
+            <source srcset="" type="image/webp">
+            <source srcset="assets/img/explanation-models.png" type="image/png">
             <img src="" alt="">
         </picture>
         <figcaption class="mt-2">Explanation Models</figcaption>
     </figure>
     <figure>
         <picture>
-            <source srcset="assets/img/infrastructure.png" type="image/webp">
-            <source srcset="" type="image/png">
+            <source srcset="" type="image/webp">
+            <source srcset="assets/img/infrastructure.png" type="image/png">
             <img src="" alt="">
         </picture>
         <figcaption class="mt-2">Simulate Autonomous Vehicle Infrastructure</figcaption>

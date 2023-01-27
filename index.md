@@ -41,8 +41,8 @@ title: "Home"
 
     <div class="mr-8 mt-4 w-36 flex flex-col">
         <picture>
-            <source srcset="./assets/img/nidhi-rastogi.png" type="image/webp">
-            <source srcset="" type="image/png">
+            <source srcset="" type="image/webp">
+            <source srcset="assets/img/nidhi-rastogi.png" type="image/png">
             <img src="" alt="">
         </picture>
         <p class="mt-3">Dr. Nidhi Rastogi</p>
@@ -50,8 +50,8 @@ title: "Home"
 
     <div class="w-36 flex flex-col">
         <picture>
-            <source srcset="./assets/img/praveen-chandrasekaran.png" type="image/webp">
-            <source srcset="" type="image/png">
+            <source srcset="" type="image/webp">
+            <source srcset="assets/img/praveen-chandrasekaran.png" type="image/png">
             <img src="" alt="">
         </picture>
         <p class="mt-3">Praveen Chandrasekaran</p>
@@ -59,8 +59,8 @@ title: "Home"
 
     <div class="w-36 flex flex-col">
         <picture>
-            <source srcset="./assets/img/ajay-ashok-shewale.png" type="image/webp">
-            <source srcset="" type="image/png">
+            <source srcset="" type="image/webp">
+            <source srcset="assets/img/ajay-ashok-shewale.png" type="image/png">
             <img src="" alt="">
         </picture>
         <p class="mt-3">Ajay Ashok Shewale</p>
@@ -68,8 +68,8 @@ title: "Home"
 
     <div class="w-36 flex flex-col">
         <picture>
-            <source srcset="./assets/img/dipkamal-bhusal.png" type="image/webp">
-            <source srcset="" type="image/png">
+            <source srcset="" type="image/webp">
+            <source srcset="assets/img/dipkamal-bhusal.png" type="image/png">
             <img src="" alt="">
         </picture>
         <p class="mt-3">Dipkamal Bhusal</p>
