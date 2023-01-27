@@ -11,21 +11,21 @@ title: "Home"
 </p>
 
 <h2>About</h2>
-<p class="mb-12">Autonomous vehicles (AVs) are anticipated to have built-in AI systems for defending against cyberattacks. Machine
+<p>Autonomous vehicles (AVs) are anticipated to have built-in AI systems for defending against cyberattacks. Machine
     learning (ML) models form the basis of many such AI systems. These models are notorious for acting like black
     boxes, transforming inputs into solutions with great accuracy, but no explanations support their decisions.
     Explanations are needed to communicate model performance, make decisions transparent, and establish trust in the
     models with stakeholders. Explanations can also indicate when humans must take control, for instance, when the ML
     model makes low-confidence decisions or offers multiple or ambiguous alternatives.</p>
-<a class="mt-2" href="">Learn More ></a>
+<a class="mt-2 mb-12" href="">Learn More ></a>
 
 <h2>Get Started</h2>
-<p class="mb-12">Et enim pulvinar eget diam risus eget nulla eros non. Facilisi arcu ut commodo, tortor faucibus gravida urna
+<p>Et enim pulvinar eget diam risus eget nulla eros non. Facilisi arcu ut commodo, tortor faucibus gravida urna
     magna. Blandit penatibus phasellus posuere quisque pellentesque adipiscing eget. Mi augue tristique nibh molestie
     fermentum, at. Fermentum, mauris nisi, feugiat convallis turpis enim eget. Sed eu sit nunc, sed. Scelerisque elit
     velit tempus duis tortor purus, non id aliquet. Ullamcorper vel magna magnis vitae orci sed vivamus. Posuere
     faucibus vitae velit egestas eleifend commodo commodo. Ornare blandit laoreet integer non.</p>
-<a class="mt-2" href="">Learn More ></a>
+<a class="mt-2 mb-12" href="">Learn More ></a>
 
 <div class="mb-12 flex px-6 py-5 bg-black text-white justify-between items-center">
     <p class="text-secondary-color">Leo mauris blandit mi ac imperdiet posuere.</p>
