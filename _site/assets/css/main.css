@@ -452,13 +452,13 @@ video {
       z-index: -1;
       width: 100%;
       background-color: black;
-      display: hidden;
+      visibility: hidden;
       opacity: 0;
       transition: all .2s ease-out;
     }
     
     #mobile-menu-toggle:checked ~ #mobile-menu {
-      display: block;
+      visibility: visible;
       opacity: 1;
     }
 
