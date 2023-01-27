@@ -745,6 +745,11 @@ video {
   width: 9rem;
 }
 
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .min-w-fit {
   min-width: -moz-fit-content;
   min-width: fit-content;

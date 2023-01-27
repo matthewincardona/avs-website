@@ -18,7 +18,7 @@ title: "Members"
         <p>Department of Software Engineering
             Golisano College of Computing and Information Sciences
         </p>
-        <a class="mt-4" href="">Personal Website ></a>
+        <a class="mt-4 block w-fit" href="">Personal Website ></a>
         <a href="" class="">Google Scholar ></a>
     </div>
 </div>
