@@ -11,7 +11,7 @@ If you're developing on a Mac, you might run into a GitHub actions error when de
 `
 Error: The process '/opt/hostedtoolcache/Ruby/[RUBY_VERSION]/x64/bin/bundle' failed with exit code 16
 `.
-To fix this, run
+To fix this, add Linux support to your Ruby install by running
 `
 bundle lock --add-platform x86_64-linux
-`
+`.
