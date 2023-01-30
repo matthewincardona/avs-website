@@ -3,5 +3,6 @@ The website for the open source Autonomous Vehicle Security project. Built with 
 
 ## Development
 Run the server with live reload enabled to make sure Tailwind regenerates static files:
+<br>
 `bundle exec jekyll serve --livereload
 `
