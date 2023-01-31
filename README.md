@@ -14,11 +14,11 @@ Be sure to run the server with live reload enabled to make sure Tailwind regener
 `bundle exec jekyll serve --livereload
 ` 
 ### Pushing With GitHub Actions
-If you run into this GitHub actions error when deploying the site
+You may run into this GitHub actions error when deploying the site
 `
 Error: The process '/opt/hostedtoolcache/Ruby/[RUBY_VERSION]/x64/bin/bundle' failed with exit code 16
 `.
-try adding Linux support to your Gemfile by locally running
+It can be fixed by adding Linux support to your Gemfile by locally running
 `
 bundle lock --add-platform x86_64-linux
 `.
