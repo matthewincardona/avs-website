@@ -9,11 +9,11 @@ gem "jekyll", "~> 4.3"
 # gem "github-pages", "~> 227", group: :jekyll_plugins
 ```
 
-Run the server with live reload enabled to make sure Tailwind regenerates static files:
+Be sure to run the server with live reload enabled to make sure Tailwind regenerates static files:
 <br>
 `bundle exec jekyll serve --livereload
 ` 
-
+### Pushing With GitHub Actions
 If you run into this GitHub actions error when deploying the site
 `
 Error: The process '/opt/hostedtoolcache/Ruby/[RUBY_VERSION]/x64/bin/bundle' failed with exit code 16
