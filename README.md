@@ -6,3 +6,12 @@ Run the server with live reload enabled to make sure Tailwind regenerates static
 <br>
 `bundle exec jekyll serve --livereload
 `
+
+If you're developing on a Mac, you might run into a GitHub actions error when deploying the site, along the lines of 
+`
+Error: The process '/opt/hostedtoolcache/Ruby/[RUBY_VERSION]/x64/bin/bundle' failed with exit code 16
+`.
+To fix this, add Linux support to your Ruby install by running
+`
+bundle lock --add-platform x86_64-linux
+`.
