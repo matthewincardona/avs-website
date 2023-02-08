@@ -22,3 +22,6 @@ It can be fixed by adding Linux support to your Gemfile by locally running
 `
 bundle lock --add-platform x86_64-linux
 `.
+
+--------------------
+Original website design by Daechan Kim.
