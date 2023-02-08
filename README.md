@@ -1,4 +1,4 @@
-# AVS-website
+# Autonomous Vehicle Security
 The website for the open source Autonomous Vehicle Security project. Built with Jekyll, Tailwind, and :heart:.
 
 ## Local Development
