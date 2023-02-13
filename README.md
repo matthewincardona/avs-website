@@ -24,4 +24,4 @@ bundle lock --add-platform x86_64-linux
 `.
 
 --------------------
-Website design by Daechan Kim.
+:art: Website design :art: by Daechan Kim.
