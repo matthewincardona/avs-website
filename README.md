@@ -1,5 +1,5 @@
 # Autonomous Vehicle Security
-Official website for the open source Autonomous Vehicle Security project. Built with Jekyll, Tailwind, and :heart:.
+Official website for the open source Autonomous Vehicle Security project. Built with Jekyll, Tailwind, and :heart:
 
 ## Local Development
 This project doesn't work with the GitHub pages version of Jekyll when running locally. Instead, un-comment the regular Jekyll version in the Gemfile and comment out the GitHub pages version. It should look similar to this:
